@@ -35,7 +35,9 @@ body, html {
   /* TITLE */
   .title {
     color: #d93025;
+    font-size: 23px;
   }
+
   
   /* BUTTONS */
   .btn {
