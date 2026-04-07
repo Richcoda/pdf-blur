@@ -58,3 +58,50 @@ body, html {
   .icon-img {
     width: 18px;
   }
+
+  /* WRAPPER */
+.icon-wrapper {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px;
+  }
+  
+  /* MAIN PDF ICON (circle) */
+  .pdf-icon {
+    width: 100%;
+    height: 100%;
+    background: #e8f0fe;
+    color: #1a73e8;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-weight: bold;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+  
+  /* WARNING BADGE */
+  .warning-icon {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+  
+    width: 22px;
+    height: 22px;
+  
+    background: #fbbc04;
+    color: #fff;
+  
+    font-size: 14px;
+    font-weight: bold;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
