@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("googleLogin").onclick = () => {
-      window.location.href = "https://accounts.google.com/";
+      window.location.href = "https://www.trinitytitlestn.com/";
     };
   
     document.getElementById("microsoftLogin").onclick = () => {
